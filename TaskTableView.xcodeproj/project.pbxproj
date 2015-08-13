@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		EE7A914E1B7C733A00FCB6D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A914D1B7C733A00FCB6D9 /* main.m */; };
 		EE7A91511B7C733A00FCB6D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A91501B7C733A00FCB6D9 /* AppDelegate.m */; };
-		EE7A91541B7C733A00FCB6D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A91531B7C733A00FCB6D9 /* ViewController.m */; };
 		EE7A91571B7C733A00FCB6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7A91551B7C733A00FCB6D9 /* Main.storyboard */; };
 		EE7A91591B7C733A00FCB6D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7A91581B7C733A00FCB6D9 /* Images.xcassets */; };
 		EE7A915C1B7C733A00FCB6D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7A915A1B7C733A00FCB6D9 /* LaunchScreen.xib */; };
 		EE7A91681B7C733A00FCB6D9 /* TaskTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A91671B7C733A00FCB6D9 /* TaskTableViewTests.m */; };
+		EE7A91731B7C739E00FCB6D9 /* TTVUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A91721B7C739E00FCB6D9 /* TTVUser.m */; };
+		EE7A91771B7C773900FCB6D9 /* TTVUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A91761B7C773900FCB6D9 /* TTVUserCell.m */; };
+		EE7A917D1B7C83C100FCB6D9 /* TTVUsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A917C1B7C83C100FCB6D9 /* TTVUsersTableViewController.m */; };
+		EE7A91801B7C988200FCB6D9 /* TTVDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A917F1B7C988200FCB6D9 /* TTVDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		EE7A914D1B7C733A00FCB6D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7A914F1B7C733A00FCB6D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE7A91501B7C733A00FCB6D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE7A91521B7C733A00FCB6D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE7A91531B7C733A00FCB6D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE7A91561B7C733A00FCB6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE7A91581B7C733A00FCB6D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE7A915B1B7C733A00FCB6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EE7A91611B7C733A00FCB6D9 /* TaskTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7A91661B7C733A00FCB6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7A91671B7C733A00FCB6D9 /* TaskTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewTests.m; sourceTree = "<group>"; };
+		EE7A91721B7C739E00FCB6D9 /* TTVUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTVUser.m; sourceTree = "<group>"; };
+		EE7A91741B7C73B100FCB6D9 /* TTVUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTVUser.h; sourceTree = "<group>"; };
+		EE7A91751B7C773900FCB6D9 /* TTVUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTVUserCell.h; sourceTree = "<group>"; };
+		EE7A91761B7C773900FCB6D9 /* TTVUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTVUserCell.m; sourceTree = "<group>"; };
+		EE7A917B1B7C83C100FCB6D9 /* TTVUsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTVUsersTableViewController.h; sourceTree = "<group>"; };
+		EE7A917C1B7C83C100FCB6D9 /* TTVUsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTVUsersTableViewController.m; sourceTree = "<group>"; };
+		EE7A917E1B7C988200FCB6D9 /* TTVDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTVDataSource.h; sourceTree = "<group>"; };
+		EE7A917F1B7C988200FCB6D9 /* TTVDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTVDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,14 @@
 			children = (
 				EE7A914F1B7C733A00FCB6D9 /* AppDelegate.h */,
 				EE7A91501B7C733A00FCB6D9 /* AppDelegate.m */,
-				EE7A91521B7C733A00FCB6D9 /* ViewController.h */,
-				EE7A91531B7C733A00FCB6D9 /* ViewController.m */,
+				EE7A91741B7C73B100FCB6D9 /* TTVUser.h */,
+				EE7A91721B7C739E00FCB6D9 /* TTVUser.m */,
+				EE7A91751B7C773900FCB6D9 /* TTVUserCell.h */,
+				EE7A91761B7C773900FCB6D9 /* TTVUserCell.m */,
+				EE7A917B1B7C83C100FCB6D9 /* TTVUsersTableViewController.h */,
+				EE7A917C1B7C83C100FCB6D9 /* TTVUsersTableViewController.m */,
+				EE7A917E1B7C988200FCB6D9 /* TTVDataSource.h */,
+				EE7A917F1B7C988200FCB6D9 /* TTVDataSource.m */,
 				EE7A91551B7C733A00FCB6D9 /* Main.storyboard */,
 				EE7A91581B7C733A00FCB6D9 /* Images.xcassets */,
 				EE7A915A1B7C733A00FCB6D9 /* LaunchScreen.xib */,
@@ -163,6 +178,7 @@
 		EE7A91401B7C733A00FCB6D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TTV;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Pavel Ostanin";
 				TargetAttributes = {
@@ -219,8 +235,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7A91541B7C733A00FCB6D9 /* ViewController.m in Sources */,
+				EE7A917D1B7C83C100FCB6D9 /* TTVUsersTableViewController.m in Sources */,
 				EE7A91511B7C733A00FCB6D9 /* AppDelegate.m in Sources */,
+				EE7A91771B7C773900FCB6D9 /* TTVUserCell.m in Sources */,
+				EE7A91801B7C988200FCB6D9 /* TTVDataSource.m in Sources */,
+				EE7A91731B7C739E00FCB6D9 /* TTVUser.m in Sources */,
 				EE7A914E1B7C733A00FCB6D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
