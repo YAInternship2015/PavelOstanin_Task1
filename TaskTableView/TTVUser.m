@@ -9,6 +9,7 @@
 #import "TTVUser.h"
 
 @implementation User
+#warning после слов @interface и @implementation и перед @end нужны пустые строки
 - (instancetype)initWhithURL:(NSString *)userImage Name:(NSString *)userName {
     self = [super init];
     if (self) {

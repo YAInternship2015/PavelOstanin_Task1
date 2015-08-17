@@ -11,6 +11,7 @@
 
 @interface TTVUserCell : UITableViewCell
 
+#warning это вообще лишнее. Достаточно создать отдельный метод вроде setupWithUser: и все
 @property (strong, nonatomic) User *user;
 
 @end

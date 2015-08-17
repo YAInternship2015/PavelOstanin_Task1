@@ -71,11 +71,11 @@
                                             <exclude reference="0Vv-K5-oHf"/>
                                         </mask>
                                         <mask key="constraints">
-                                            <exclude reference="9DO-XH-y0H"/>
-                                            <exclude reference="oMx-Wi-nQi"/>
                                             <exclude reference="0QY-t4-MNZ"/>
                                             <exclude reference="fal-mo-ZqW"/>
                                             <exclude reference="pxc-y3-rGS"/>
+                                            <exclude reference="9DO-XH-y0H"/>
+                                            <exclude reference="oMx-Wi-nQi"/>
                                         </mask>
                                     </variation>
                                     <variation key="heightClass=regular-widthClass=compact">
@@ -84,11 +84,11 @@
                                             <include reference="0Vv-K5-oHf"/>
                                         </mask>
                                         <mask key="constraints">
-                                            <include reference="9DO-XH-y0H"/>
-                                            <include reference="oMx-Wi-nQi"/>
                                             <include reference="0QY-t4-MNZ"/>
                                             <include reference="fal-mo-ZqW"/>
                                             <include reference="pxc-y3-rGS"/>
+                                            <include reference="9DO-XH-y0H"/>
+                                            <include reference="oMx-Wi-nQi"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
